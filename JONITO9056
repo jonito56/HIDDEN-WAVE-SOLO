@@ -3,16 +3,14 @@ _G.AutoStrat = true
 -- [[ INITIALIZE LIBRARY ]]
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
-TDS:Loadout("", "Scout", "Commander", "Mercenary Base", "Hacker")
-
-TDS:Ready()
+TDS:Loadout("Cowboy", "Electroshocker", "Commander", "Mercenary Base", "Hacker")
 
 TDS:Place("Cowboy", 11.53624, 95, 27.21513) -- 1
 TDS:Place("Electroshocker", 15.28894, 95, 27.14545) -- 2
 TDS:Place("Mercenary Base", -29.69427, 95, -32.84072) -- 3
 TDS:Place("DJ Booth", 12.72821, 95, 13.80893) -- 4
 TDS:Place("Commander", 16.03177, 95, 24.37560) -- 5
-TDS:Place("Fallen", 21.01817, 95, 28.23559) -- 6
+TDS:Place("Hacker", 21.01817, 95, 28.23559) -- 6
 TDS:Place("Warlock", 18.36421, 95, 27.64809) -- 7
 TDS:Place("Freezer", 8.80203, 95, 27.34175) -- 8
 TDS:Place("Accelerator", 16.30466, 95, 17.73979) -- 9
